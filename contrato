@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrate-Nos</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            <nav>
+                <a href="inicio.html"><img src="img/logo.png"></a>
+                / <a href="Espacionaves.html"> Espacionaves</a>
+                /<a href="contrato.html">Contrate-Nos</a>
+            </nav>
+            <section>
+
+                <hr>
+                <h1> Contrate-Nos Agora </h1><br>
+                <p>Deixe uma mensagem para solicitar um de nossos serviços e retornaremos o mais breve possível.</p><br>
+
+            </section>
+
+        </header>
+
+
+        <section>
+            Nome: <input type="text" required style="width: 250px;">
+            - Email:<input type="email" required style="width: 250px;"><br><br>
+        </section>
+        <br>
+        <section>
+            Espacionaves: <select name="Espacionaves" id="Espacionaves">
+                <option value="Falcon-Heavy">Falcon-Heavy</option>
+                <option value="Falcon-9">Falcon_9</option>
+            </select>
+            - Serviços: <input type="search" list="Serviços" style="width: 350px;">
+            <datalist id="Serviços">
+                <option name="Satélites"> Lançamento de Satélites</option>
+                <option name="Reabastecimento">Reabastecimento da Estação Espacial Internacional</option>
+                <option name="Transporte">Transporte de Passageiros</option>
+                <option name="Tecnologias">Desenvolvimento de Tecnologias Espaciais</option>
+            </datalist>
+        </section>
+
+        <section>
+            <br> <br> <input type="submit" value="Enviar">
+        </section>
+    </form>
+
+</body>
+
+</html>
